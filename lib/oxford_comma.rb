@@ -9,5 +9,5 @@ elsif array.length > 2
   string + last_element
   end
 else
-  array.join("")
+  array.join(",")
 end
