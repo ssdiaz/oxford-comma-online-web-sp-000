@@ -7,11 +7,8 @@ if array.length == 2
 else
   # array.insert(-2, " and ")
   last_element = array.pop
-  last_element
   array << "and "
   string = array.join(", ")
   string + last_element
-
-  #array << last_element
   end
 end
