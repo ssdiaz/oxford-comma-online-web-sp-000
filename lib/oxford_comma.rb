@@ -8,4 +8,6 @@ elsif array.length > 2
   string = array.join(", ")
   string + last_element
   end
+else
+  array.join""
 end
