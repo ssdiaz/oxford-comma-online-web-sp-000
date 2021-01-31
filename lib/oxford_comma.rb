@@ -7,7 +7,8 @@ elsif array.length > 2
   array << "and "
   string = array.join(", ")
   string + last_element
-  end
+
 else
-  array.join(",")
+  array.join("")
+end
 end
