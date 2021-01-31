@@ -4,7 +4,7 @@ def oxford_comma(array)
    #{}"and " << array[-1]
 if array.length = 2
   return "#{array[0] and #{array[1]""
-else 
+else
   # array.insert(-2, " and ")
   last_element = array.pop
   last_element
@@ -13,5 +13,5 @@ else
   string + last_element
 
   #array << last_element
-
+  end
 end
